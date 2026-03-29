@@ -1,4 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Georgia, serif;
+    }
+
+    .bxslider,
+    .bxslider li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .bx-wrapper {
+      max-width: 800px !important;
+      margin: 0 auto !important;
+    }
+
+    .bx-wrapper img,
+    .bxslider img {
+      display: block !important;
+      width: 100% !important;
+      height: auto !important;
+      margin: 0 !important;
+    }
+  </style>
+</head>
+<body>
 
 
 <!-- Restaurant Reviews -->
@@ -73,3 +109,23 @@
 </div>
 <BR>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.bxslider').bxSlider({
+        auto: true,
+        autoControls: false,
+        touchEnabled: false,
+        captions: false,
+        infiniteLoop: true,
+        useCSS: false,
+        pager: true,
+        controls: true
+      });
+    });
+  </script>
+
+</body>
+</html>
