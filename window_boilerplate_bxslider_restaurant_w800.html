@@ -80,17 +80,18 @@
 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
 <script>
+
 function sendHeight() {
-  const height = Math.max(
-    document.body.scrollHeight,
-    document.documentElement.scrollHeight
-  );
+  const wrapper = document.querySelector('.bx-wrapper');
+  if (!wrapper) return;
+
+  const height = Math.ceil(wrapper.getBoundingClientRect().height);
 
   window.parent.postMessage({
     type: 'resize-iframe',
     height: height
   }, '*');
-}
+}  
 
 $(document).ready(function () {
   $('.bxslider').bxSlider({
