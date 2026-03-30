@@ -93,7 +93,7 @@ function sendHeight() {
   window.parent.postMessage({
     type: 'resize-iframe',
     height: height
-  }, 'https://www.westmelbourneandbeyond.com');
+  }, '*');
 }
 
 $(document).ready(function () {
