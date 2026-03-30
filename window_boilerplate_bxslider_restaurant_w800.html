@@ -5,18 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
- 
-  <style>
 
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
 
     body {
-      margin: 0;
-      padding: 20px;
       font-family: Georgia, serif;
     }
 
     .bxslider,
-    .bxslider li {
+    .bxslider li,
+    .bxslider div {
       margin: 0;
       padding: 0;
       list-style: none;
@@ -25,6 +28,17 @@
     .bx-wrapper {
       max-width: 800px !important;
       margin: 0 auto !important;
+      border: 0 !important;
+      box-shadow: none !important;
+      overflow: hidden !important;
+    }
+
+    .bx-viewport {
+      border: 0 !important;
+      box-shadow: none !important;
+      overflow: hidden !important;
+      -webkit-transform: translatez(0);
+      transform: translatez(0);
     }
 
     .bx-wrapper img,
@@ -33,13 +47,18 @@
       width: 100% !important;
       height: auto !important;
       margin: 0 !important;
+      border: 0 !important;
+    }
+
+    .bxslider a {
+      display: block;
+      margin: 0;
+      padding: 0;
     }
   </style>
 </head>
 
 <body>
-
-<br>
 
 <div class="bxslider">
 <div><a href="https://www.westmelbourneandbeyond.com/p/williamstown-restaurant-cafe-reviews.html" target="_blank"><img decoding="async" alt="Williamstown" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibJiHzw5w0tzudRidhok1rPqpJHUGVEJHup77E_2trN3Uo0wsFC_IgciV1Ek3T5hIrXIufoMXHF4u2txNzpXAUAiu1-Gg6OlIykfF8qyZEiG_sHBiWTCdxKtndH9FFDeXIWosJ7TgYxOVWG2AAuVglDDN89EKZyvVYwaOGBvZzb2q2cA2gRXOFFzcLjjw/w800/Williamstown-01.jpg"  /></a></div>
@@ -56,9 +75,7 @@
 </div>
 
 </div>
-<BR>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
@@ -80,18 +97,15 @@ $(document).ready(function () {
     auto: true,
     autoControls: false,
     touchEnabled: false,
-    preloadImages: 'visible',
+    preloadImages: 'all',
     adaptiveHeight: false,
     captions: false,
     infiniteLoop: true,
-    useCSS: false,
+    useCSS: true,
     pager: true,
     controls: true,
     onSliderLoad: function () {
-      setTimeout(sendHeight, 200);
-    },
-    onSlideAfter: function () {
-      setTimeout(sendHeight, 200);
+      setTimeout(sendHeight, 300);
     }
   });
 
