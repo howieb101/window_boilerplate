@@ -85,16 +85,16 @@
 
 <script>
 function sendHeight() {
-  const wrapper = document.querySelector('.bx-wrapper');
-  if (!wrapper) return;
-
-  const height = Math.ceil(wrapper.getBoundingClientRect().height);
+  const height = Math.max(
+    document.body.scrollHeight,
+    document.documentElement.scrollHeight
+  );
 
   window.parent.postMessage({
     type: 'resize-iframe',
     height: height
   }, '*');
-}  
+} 
 
 $(document).ready(function () {
   $('.bxslider').bxSlider({
