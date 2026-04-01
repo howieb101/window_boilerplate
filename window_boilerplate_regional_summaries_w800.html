@@ -26,12 +26,13 @@ body {
 /* FORCE full width content */
 figure {
   margin: 0 0 20px 0;
+  text-align: center;   /* 👈 ensures centering context */
 }
 
 figure > a {
-  display: block;
+  display: inline-block;
   max-width: 700px;   /* 👈 controls visual size */
-  margin: 0 auto;     /* 👈 centers it */
+
 }
 
 figure picture {
@@ -40,10 +41,9 @@ figure picture {
 }
 
 figure img {
-  display: block;
   width: 100%;
-  max-width: none;
   height: auto;
+  display: block;
 }
 
 figcaption {
