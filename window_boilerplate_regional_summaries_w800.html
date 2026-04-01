@@ -473,7 +473,23 @@ a.one:hover, a.one:active {
 <p><a class="one blinkImg" href="https://www.westmelbourneandbeyond.com/p/creswick-attractions.html">More Information on Creswick</a></p>
 <br>
 
+<script>
+function sendHeightText() {
+  const height = document.body.scrollHeight;
 
+  parent.postMessage({
+    type: 'resize-iframe-text',
+    height: height
+  }, '*');
+}
+
+window.addEventListener('load', sendHeightText);
+window.addEventListener('resize', sendHeightText);
+
+/* optional: catch late image loads */
+setTimeout(sendHeightText, 500);
+setTimeout(sendHeightText, 1500);
+</script>
 
 
 </body>
