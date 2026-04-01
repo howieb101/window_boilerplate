@@ -18,8 +18,23 @@ body {
     color: #333333;
     line-height: 1.5;
     background-color: #FCFBFC;
-    margin: 20px;
+    margin: 0;
+    padding: 10px; /* reduce from 20px if you want wider images */
+    box-sizing: border-box;
 }
+
+/* FORCE full width content */
+figure {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+/* THIS is the important part */
+figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}    
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', Helvetica, sans-serif;
