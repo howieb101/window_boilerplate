@@ -474,21 +474,70 @@ a.one:hover, a.one:active {
 <br>
 
 <script>
-function sendHeightText() {
-  const height = document.body.scrollHeight;
+(function () {
+  let lastHeight = 0;
 
-  parent.postMessage({
-    type: 'resize-iframe-text',
-    height: height
-  }, '*');
-}
+  function getHeight() {
+    const body = document.body;
+    const html = document.documentElement;
 
-window.addEventListener('load', sendHeightText);
-window.addEventListener('resize', sendHeightText);
+    return Math.max(
+      body.scrollHeight,
+      body.offsetHeight,
+      html.scrollHeight,
+      html.offsetHeight,
+      html.clientHeight
+    );
+  }
 
-/* optional: catch late image loads */
-setTimeout(sendHeightText, 500);
-setTimeout(sendHeightText, 1500);
+  function sendHeightText() {
+    const newHeight = getHeight();
+
+    if (newHeight !== lastHeight) {
+      lastHeight = newHeight;
+      parent.postMessage({
+        type: 'resize-iframe-text',
+        height: newHeight
+      }, '*');
+    }
+  }
+
+  window.addEventListener('load', sendHeightText);
+  window.addEventListener('resize', sendHeightText);
+
+  /* fire again after full render */
+  setTimeout(sendHeightText, 300);
+  setTimeout(sendHeightText, 800);
+  setTimeout(sendHeightText, 1500);
+  setTimeout(sendHeightText, 2500);
+
+  /* watch DOM/content changes */
+  if ('ResizeObserver' in window) {
+    const ro = new ResizeObserver(function () {
+      sendHeightText();
+    });
+    ro.observe(document.body);
+  }
+
+  if ('MutationObserver' in window) {
+    const mo = new MutationObserver(function () {
+      sendHeightText();
+    });
+    mo.observe(document.body, {
+      childList: true,
+      subtree: true,
+      attributes: true
+    });
+  }
+
+  /* catch image loads */
+  Array.prototype.forEach.call(document.images, function (img) {
+    if (!img.complete) {
+      img.addEventListener('load', sendHeightText);
+      img.addEventListener('error', sendHeightText);
+    }
+  });
+})();
 </script>
 
 
