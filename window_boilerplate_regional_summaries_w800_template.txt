@@ -389,3 +389,20 @@
 <!--Click Link-->
 <p><a class="one blinkImg" href="https://www.westmelbourneandbeyond.com/p/creswick-attractions.html">More Information on Creswick</a></p>
 <br>
+
+<h4>Explore more of Victoria - Woodend</h4> 
+<p>There are plenty of reasons to keep exploring the Western Victoria. Check out our guide on the great things to do in <b><a href="https://www.westmelbourneandbeyond.com/p/top-things-woodend.html" target="_blank">Woodend</a></b>.<p><br>
+  
+<center>  
+<figure>
+<a href ="https://www.westmelbourneandbeyond.com/p/top-things-woodend.html">   
+<img loading="lazy" decoding="async"  src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy-5YdIlIOuj0uwu9Od56WxyDK9DA4vRf7F8ctAB9j3xKmJAArT_wlLusTNk-dV54uPaax5khLYjoSv8A82HzflfQ1H0jqIP8JzIkvZPCfe7G_Lo0qxVIANnB76Ti9FSg6eVZp4a_5E9bC88I7ItalHyDAWH5l7y9tR4BKY1gR4xnZkd1yxNAqyHfaXJw/w800/woodend-facebook-01.jpg' alt='Top things to do in Woodend' href='' /></a>
+<figcaption><small><em>Image: West Melbourne and Beyond</em></small></figcaption>
+
+</figure>
+</center>
+<br />   
+  
+<!--Click Link-->
+<p><a class="one blinkImg" href="https://www.westmelbourneandbeyond.com/p/top-things-woodend.html">More Information on Woodend</a></p>
+<br /> 
