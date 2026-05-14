@@ -150,6 +150,7 @@
 <br>
 
 <!-- west_display_450_x_450 -->
+<center>
 <ins class="adsbygoogle"
      style="display:inline-block;width:450px;height:450px"
      data-ad-client="ca-pub-6639447803751289"
