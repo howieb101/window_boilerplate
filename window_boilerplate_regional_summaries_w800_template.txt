@@ -149,6 +149,17 @@
 <p><a class="one blinkImg" href="https://www.westmelbourneandbeyond.com/p/castlemaine-attractions.html">More Information on Castlemaine</a></p>
 <br>
 
+<!-- west_display_450_x_450 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:450px;height:450px"
+     data-ad-client="ca-pub-6639447803751289"
+     data-ad-slot="3504497675"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+<br>
+
 <h4>Visit Kyneton</h4>
 <p><b>Kyneton</b> has a number of attractions including many wineries! Plan ahead for your next visit to Central and West Central Victoria.</p><br>
    
