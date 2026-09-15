@@ -28,7 +28,7 @@ window.regional_summaries = [
         "imgurl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtYa2tTzJefR11IsJanEJbv7yBJ66An-TqlHEuuWcRohUNw2n8J_IwWT3Y499jxoSXVYULPRn2dW-sgqM_ar5bzWsJNlczGEWHdDlTpEddJJq_wcF_ytFUNJxiwhjvDijMSsYYdPf-dWjgghH0NAPuqz711xMn9QdY_2_NYe2axcsyOA0Uue2G7yDjsIc/s1600/Castlemaine---West-Melbourne-and-Beyond---002.jpg",
         "imgcaption": "Image: West Melbourne And Beyond",
         "buttontext": "More Information on Castlemaine",
-        "region": "Castllemaine",
+        "region": "Castlemaine",
         "sortorder": 5,
         "pageurl": "https://www.westmelbourneandbeyond.com/p/castlemaine-attractions.html"
     },
