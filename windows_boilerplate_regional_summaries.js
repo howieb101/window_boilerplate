@@ -7,7 +7,8 @@ window.regional_summaries = [
         "imgcaption": "Image: West Melbourne And Beyond",
         "buttontext": "More Information on Bacchus Marsh",
         "region": "Bacchus Marsh",
-        "sortorder": 11
+        "sortorder": 11,
+        "pageurl": "https://www.westmelbourneandbeyond.com/p/top-things-to-do-in-bacchus-marsh.html"
     },
     {
         "eventtitle": "Visit Ballarat",
@@ -17,7 +18,8 @@ window.regional_summaries = [
         "imgcaption": "Image: West Melbourne And Beyond",
         "buttontext": "More Information on Ballarat",
         "region": "Ballarat",
-        "sortorder": 9
+        "sortorder": 9,
+        "pageurl": "https://www.westmelbourneandbeyond.com/p/top-5-things-to-do-in-ballarat.html"
     },
     {
         "eventtitle": "Visit Castlemaine",
@@ -27,7 +29,8 @@ window.regional_summaries = [
         "imgcaption": "Image: West Melbourne And Beyond",
         "buttontext": "More Information on Castlemaine",
         "region": "Castllemaine",
-        "sortorder": 5
+        "sortorder": 5,
+        "pageurl": "https://www.westmelbourneandbeyond.com/p/castlemaine-attractions.html"
     },
     {
         "eventtitle": "Visit Clunes",
@@ -37,7 +40,8 @@ window.regional_summaries = [
         "imgcaption": "Image: West Melbourne And Beyond",
         "buttontext": "More Information on Clunes",
         "region": "Clunes",
-        "sortorder": 12
+        "sortorder": 12,
+        "pageurl": "https://www.westmelbourneandbeyond.com/p/top-things-to-do-in-clunes.html"
     },
     {
         "eventtitle": "Visit Colac",
@@ -47,7 +51,8 @@ window.regional_summaries = [
         "imgcaption": "Image: West Melbourne And Beyond",
         "buttontext": "More Information on Colac",
         "region": "Colac",
-        "sortorder": 8
+        "sortorder": 8,
+        "pageurl": "https://www.westmelbourneandbeyond.com/p/colac-attractions.html"
     },
     {
         "eventtitle": "Visit Creswick",
@@ -57,7 +62,8 @@ window.regional_summaries = [
         "imgcaption": "Image: West Melbourne And Beyond.",
         "buttontext": "More Information on Creswick",
         "region": "Creswick",
-        "sortorder": 13
+        "sortorder": 13,
+        "pageurl": "https://www.westmelbourneandbeyond.com/p/creswick-attractions.html"
     },
     {
         "eventtitle": "Visit Daylesford",
@@ -67,7 +73,8 @@ window.regional_summaries = [
         "imgcaption": "Image: West Melbourne and Beyond",
         "buttontext": "More Information on Daylesford",
         "region": "Daylesford",
-        "sortorder": 1
+        "sortorder": 1,
+        "pageurl": "https://www.westmelbourneandbeyond.com/p/daylesford-top-5.html"
     },
     {
         "eventtitle": "Visit Kyneton",
@@ -77,7 +84,8 @@ window.regional_summaries = [
         "imgcaption": "Image: West Melbourne And Beyond",
         "buttontext": "More Information on Kyneton",
         "region": "Kyneton",
-        "sortorder": 6
+        "sortorder": 6,
+        "pageurl": "https://www.westmelbourneandbeyond.com/p/kyneton-tourist-destination-top-5.html"
     },
     {
         "eventtitle": "Visit Lancefield",
@@ -87,7 +95,8 @@ window.regional_summaries = [
         "imgcaption": "Image: West Melbourne And Beyond",
         "buttontext": "More Information on Lancefield",
         "region": "Lancefield",
-        "sortorder": 4
+        "sortorder": 4,
+        "pageurl": "https://www.westmelbourneandbeyond.com/p/top-things-to-do-in-lancefield.html"
     },
     {
         "eventtitle": "Visit Macedon",
@@ -97,7 +106,8 @@ window.regional_summaries = [
         "imgcaption": "Image: West Melbourne and Beyond",
         "buttontext": "More Information on Macedon",
         "region": "Macedon",
-        "sortorder": 2
+        "sortorder": 2,
+        "pageurl": "https://www.westmelbourneandbeyond.com/p/macedon-things-to-do.html"
     },
     {
         "eventtitle": "Visit Malmsbury",
@@ -107,7 +117,8 @@ window.regional_summaries = [
         "imgcaption": "Image: West Melbourne And Beyond",
         "buttontext": "More Information on Malmsbury",
         "region": "Malmsbury",
-        "sortorder": 7
+        "sortorder": 7,
+        "pageurl": "https://www.westmelbourneandbeyond.com/p/top-things-to-do-in-malmsbury.html"
     },
     {
         "eventtitle": "Visit Taradale",
@@ -117,7 +128,8 @@ window.regional_summaries = [
         "imgcaption": "Image: West Melbourne and Beyond",
         "buttontext": "More Information on Taradale",
         "region": "Taradale",
-        "sortorder": 10
+        "sortorder": 10,
+        "pageurl": "https://www.westmelbourneandbeyond.com/p/taradale-things-to-do.html"
     },
     {
         "eventtitle": "Visit Trentham",
@@ -127,6 +139,7 @@ window.regional_summaries = [
         "imgcaption": "Image: West Melbourne And Beyond",
         "buttontext": "More Information on Trentham",
         "region": "Trentham",
-        "sortorder": 3
+        "sortorder": 3,
+        "pageurl": "https://www.westmelbourneandbeyond.com/p/trentham-attractions.html"
     }
 ]
